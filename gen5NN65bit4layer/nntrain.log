@@ -1,0 +1,108 @@
+splice = 2
+ftrans0 = output/gen5/record/NN.6/nn-cmaes/trans.ini
+st2idmap = output/gen5/record/NN.6/nn-cmaes/wj_ous/kwsfeature/align/mono-mix16/phoneid.map
+xtrain = output/gen5/record/NN.6/nn-cmaes/wj_ous/kwsfeature/scripts/train.AC.train7k5.scp
+alimlf = output/gen5/record/NN.6/nn-cmaes/wj_ous/kwsfeature/align/mono-mix16/aligned.30k.mlf
+mlf2arkiv = output/gen5/record/NN.6/nn-cmaes/wj_ous/tsDeep/tsdeep.v8.1/mlf2arkiv.pl
+compmv = output/gen5/record/NN.6/nn-cmaes/wj_ous/tsDeep/tsdeep.v8.1/compmeanvar.py
+rbmtrain = output/gen5/record/NN.6/nn-cmaes/wj_ous/tsDeep/tsdeep.v8.1/rbmtrain.py
+backprop = output/gen5/record/NN.6/nn-cmaes/wj_ous/tsDeep/tsdeep.v8.1/backprop.py
+outputsize = 42
+## RBM pretraining
+2017年  4月  4日 火曜日 19:57:58 JST
+rbmi 1
+visnum: 60
+output/gen5/record/NN.6/nn-cmaes/nn/nn.xnorm
+0.391336083247
+0.370884744138
+0.368244048748
+0.366257718253
+0.365218539731
+0.364643985735
+0.364474840266
+0.364534880192
+0.364582594455
+0.364540673884
+2017年  4月  4日 火曜日 20:31:21 JST
+rbmi 2
+outsize: 56
+visnum: 70
+output/gen5/record/NN.6/nn-cmaes/nn/nn.xnorm
+0.0491873147724
+0.0479425421353
+0.0478264620388
+0.0477994259982
+0.0477880874446
+0.0477934988232
+0.0477852841561
+0.0478096240334
+0.0478008953022
+0.0478080755233
+2017年  4月  4日 火曜日 21:06:34 JST
+3
+outsize: 69
+visnum: 56
+output/gen5/record/NN.6/nn-cmaes/nn/nn.xnorm
+0.0262252023831
+0.0250981486178
+0.0250824688262
+0.0250706506607
+0.0250704007311
+0.0250782800889
+0.0250697233116
+0.0250751847222
+0.0250747974035
+0.0250868281154
+2017年  4月  4日 火曜日 21:42:34 JST
+4
+outsize: 30
+visnum: 69
+output/gen5/record/NN.6/nn-cmaes/nn/nn.xnorm
+0.0113834656242
+0.0105694639892
+0.010559073774
+0.0105472769399
+0.0105501267061
+0.0105464390032
+0.0105501052541
+0.0105514818451
+0.0105491557884
+0.01054863454
+2017年  4月  4日 火曜日 22:13:07 JST
+5
+rbmi 5
+visnum: 30
+output/gen5/record/NN.6/nn-cmaes/nn/nn.xnorm
+2017年  4月  4日 火曜日 22:13:09 JST
+## backprop
+(60, 70)
+(70, 56)
+(56, 69)
+(69, 30)
+(30, 42)
+Start training (minibatch size=128)
+Epoch Train Devel
+Training data X:  (4062781, 60)
+Dev data X:  (815743, 60)
+0: 97.3587303869 97.366327385
+1: 65.5054998042 62.8054424004
+2: 60.1658076081 60.1825574967
+3: 58.3396693053 58.8902387149
+4: 57.3313944315 58.3029213858
+5: 56.6706647491 57.4991143044
+6: 56.1911409943 57.3337435933
+7: 55.7866397426 57.0097444906
+8: 55.471166179 56.855774429
+9: 55.18259537 56.5455051407
+10: 54.9237086616 56.057116028
+11: 54.7040069352 55.8640405128
+12: 54.5139893093 55.8838997086
+13: 54.3482161603 55.6106518842
+14: 54.1900486391 55.7907331108
+15: 54.0669556149 55.3716060083
+2017年  4月  4日 火曜日 23:24:32 JST
+
+real	208m28.298s
+user	207m36.620s
+sys	0m47.112s
+done

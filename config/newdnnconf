@@ -1,0 +1,12 @@
+<LAYERNUMBER>
+5
+<NODENUMBER>
+101 12
+12 120
+120 100
+100 80
+80 60
+<threshold>
+1225
+<size>
+1.45518

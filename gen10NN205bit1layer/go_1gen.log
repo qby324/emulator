@@ -1,0 +1,462 @@
+2017年 4月 9日 日曜日 22:23:49 JST
+training: output/gen10/record/NN.20
+2017年 4月 9日 日曜日 23:14:47 JST
+End training of output/gen10/record/NN.20
+2017年 4月 9日 日曜日 23:15:12 JST
+DNN input file created: output/gen10/record/NN.20
+start cal DNN :output/gen10/record/NN.20/data/template/eakon.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/template/gensoku.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/template/hachi.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/template/hasshin.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/template/kakunin.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/template/ko:hi:.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/template/megane.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/template/pasokon.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/template/saifu.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/template/zero.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/fang_802_1m_s1.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/fang_802_1m_s10.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/fang_802_1m_s2.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/fang_802_1m_s3.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/fang_802_1m_s4.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/fang_802_1m_s5.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/fang_802_1m_s6.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/fang_802_1m_s7.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/fang_802_1m_s8.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/fang_802_1m_s9.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/fang_802_3m_s1.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/fang_802_3m_s10.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/fang_802_3m_s2.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/fang_802_3m_s3.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/fang_802_3m_s4.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/fang_802_3m_s5.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/fang_802_3m_s6.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/fang_802_3m_s7.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/fang_802_3m_s8.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/fang_802_3m_s9.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/liu_802_1m_s1.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/liu_802_1m_s10.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/liu_802_1m_s2.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/liu_802_1m_s3.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/liu_802_1m_s4.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/liu_802_1m_s5.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/liu_802_1m_s6.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/liu_802_1m_s7.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/liu_802_1m_s8.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/liu_802_1m_s9.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/liu_802_3m_s1.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/liu_802_3m_s10.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/liu_802_3m_s2.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/liu_802_3m_s3.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/liu_802_3m_s4.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/liu_802_3m_s5.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/liu_802_3m_s6.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/liu_802_3m_s7.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/liu_802_3m_s8.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/liu_802_3m_s9.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/qian_802_1m_s1.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/qian_802_1m_s10.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/qian_802_1m_s2.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/qian_802_1m_s3.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/qian_802_1m_s4.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/qian_802_1m_s5.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/qian_802_1m_s6.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/qian_802_1m_s7.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/qian_802_1m_s8.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/qian_802_1m_s9.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/qian_802_3m_s1.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/qian_802_3m_s10.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/qian_802_3m_s2.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/qian_802_3m_s3.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/qian_802_3m_s4.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/qian_802_3m_s5.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/qian_802_3m_s6.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/qian_802_3m_s7.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/qian_802_3m_s8.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/qian_802_3m_s9.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/wang_802_1m_s1.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/wang_802_1m_s10.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/wang_802_1m_s2.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/wang_802_1m_s3.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/wang_802_1m_s4.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/wang_802_1m_s5.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/wang_802_1m_s6.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/wang_802_1m_s7.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/wang_802_1m_s8.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/wang_802_1m_s9.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/wang_802_3m_s1.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/wang_802_3m_s10.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/wang_802_3m_s2.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/wang_802_3m_s3.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/wang_802_3m_s4.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/wang_802_3m_s5.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/wang_802_3m_s6.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/wang_802_3m_s7.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/wang_802_3m_s8.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+start cal DNN :output/gen10/record/NN.20/data/din/wang_802_3m_s9.din
+ready to create weight file
+ready to read numbers
+ready to calculate the dnn
+2017年  4月  9日 日曜日 23:16:55 JST
+DNN calculated: output/gen10/record/NN.20
+nSamples=2173
+nSamples=2952
+nSamples=1886
+nSamples=2501
+nSamples=2419
+nSamples=2747
+nSamples=2009
+nSamples=2624
+nSamples=3198
+nSamples=1599
+nSamples=487572
+nSamples=416068
+nSamples=490893
+nSamples=434272
+nSamples=505489
+nSamples=368672
+nSamples=417093
+nSamples=410410
+nSamples=460389
+nSamples=458872
+nSamples=492943
+nSamples=436322
+nSamples=455510
+nSamples=476297
+nSamples=586218
+nSamples=475518
+nSamples=574410
+nSamples=513935
+nSamples=478347
+nSamples=601347
+nSamples=436322
+nSamples=487818
+nSamples=451410
+nSamples=439110
+nSamples=435543
+nSamples=466539
+nSamples=464735
+nSamples=475764
+nSamples=479864
+nSamples=475764
+nSamples=497822
+nSamples=500364
+nSamples=501922
+nSamples=505735
+nSamples=498847
+nSamples=502168
+nSamples=498068
+nSamples=499093
+nSamples=509343
+nSamples=497289
+nSamples=372772
+nSamples=396347
+nSamples=367114
+nSamples=368672
+nSamples=381997
+nSamples=398889
+nSamples=385318
+nSamples=411435
+nSamples=418897
+nSamples=435010
+nSamples=490114
+nSamples=446039
+nSamples=430910
+nSamples=445547
+nSamples=359939
+nSamples=440422
+nSamples=446572
+nSamples=465514
+nSamples=438864
+nSamples=442472
+nSamples=314060
+nSamples=330993
+nSamples=332510
+nSamples=287410
+nSamples=343047
+nSamples=308197
+nSamples=288722
+nSamples=313568
+nSamples=319964
+nSamples=457068
+nSamples=342514
+nSamples=477322
+nSamples=312543
+nSamples=351739
+nSamples=394543
+nSamples=395814
+nSamples=399135
+nSamples=347885
+nSamples=434518
+nSamples=441939
+2017年  4月  9日 日曜日 23:22:06 JST
+DPmatching has done: output/gen10/record/NN.20
+2017年  4月  9日 日曜日 23:29:30 JST
+scored output/gen10/record/NN.20

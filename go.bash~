@@ -1,0 +1,25 @@
+#! /bin/bash
+#Jan 13 2017
+#Qian
+date
+filename=$1
+
+find ./program -type f -not \( -name '*c' -or -name '*cpp' \) -delete
+for file in `ls program`
+do
+	echo impiling $file
+	g++ ./program/$file -o ./program/${file%%.*}
+done
+wait
+
+./program/mfccb2mfccf ./matlabmfcc/${filename}.mfcc ./matlabmfcc/${filename}.mfc
+date
+./program/mfcc2dnninput ./matlabmfcc/${filename}.mfc ./config/0208nn.xnorm ./mfcc/${filename}.din
+date
+./program/dnncalculate ./mfcc/${filename}.din ./config/0208mlp.final ./config/0208dnnconf ./dnn/${filename}.dnn
+date
+./program/dnn2verilog ./dnn/${filename}.dnn ./verilogin/${filename}.vdnn
+
+./program/makeverilogweightnoextra ./config/0208mlp.final ./coe/${filename}.coe
+
+date

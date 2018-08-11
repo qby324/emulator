@@ -1,0 +1,76 @@
+splice = 2
+ftrans0 = output/gen7/record/NN.5/nn-cmaes/trans.ini
+st2idmap = output/gen7/record/NN.5/nn-cmaes/wj_ous/kwsfeature/align/mono-mix16/phoneid.map
+xtrain = output/gen7/record/NN.5/nn-cmaes/wj_ous/kwsfeature/scripts/train.AC.train7k5.scp
+alimlf = output/gen7/record/NN.5/nn-cmaes/wj_ous/kwsfeature/align/mono-mix16/aligned.30k.mlf
+mlf2arkiv = output/gen7/record/NN.5/nn-cmaes/wj_ous/tsDeep/tsdeep.v8.1/mlf2arkiv.pl
+compmv = output/gen7/record/NN.5/nn-cmaes/wj_ous/tsDeep/tsdeep.v8.1/compmeanvar.py
+rbmtrain = output/gen7/record/NN.5/nn-cmaes/wj_ous/tsDeep/tsdeep.v8.1/rbmtrain.py
+backprop = output/gen7/record/NN.5/nn-cmaes/wj_ous/tsDeep/tsdeep.v8.1/backprop.py
+outputsize = 42
+## RBM pretraining
+2017年  4月  6日 木曜日 19:44:23 JST
+rbmi 1
+visnum: 60
+output/gen7/record/NN.5/nn-cmaes/nn/nn.xnorm
+0.388272318079
+0.368372300777
+0.365866490245
+0.364757936098
+0.36410160733
+0.363679960557
+0.363360995225
+0.362901798647
+0.362676171039
+0.362551984343
+2017年  4月  6日 木曜日 20:04:59 JST
+rbmi 2
+outsize: 50
+visnum: 60
+output/gen7/record/NN.5/nn-cmaes/nn/nn.xnorm
+0.0566437575661
+0.055101720193
+0.0549754976392
+0.0549596652765
+0.0549285759557
+0.054936348165
+0.0549250168651
+0.0549302257758
+0.0549168726537
+0.0549265816187
+2017年  4月  6日 木曜日 20:29:00 JST
+3
+rbmi 3
+visnum: 50
+output/gen7/record/NN.5/nn-cmaes/nn/nn.xnorm
+2017年  4月  6日 木曜日 20:29:02 JST
+## backprop
+(60, 60)
+(60, 50)
+(50, 42)
+Start training (minibatch size=128)
+Epoch Train Devel
+Training data X:  (4062781, 60)
+Dev data X:  (815743, 60)
+0: 96.1694464949 96.0806283351
+1: 60.9811358279 59.1366398486
+2: 57.4013711298 57.9851742522
+3: 56.5518298919 57.4650349436
+4: 56.0714938856 57.0928589029
+5: 55.7305205474 56.7769505837
+6: 55.4978720241 56.5920884396
+7: 55.3213180824 56.4647198934
+8: 55.1687132533 56.5316527387
+9: 55.0394421949 56.3290153884
+10: 54.9375661647 56.0493930074
+11: 54.8729306354 55.9920219971
+12: 54.7929361686 56.0739105331
+13: 54.7387122269 55.8577885437
+14: 54.677694909 56.0735427702
+15: 54.6056506615 55.8178249767
+2017年  4月  6日 木曜日 21:23:36 JST
+
+real	101m18.974s
+user	100m49.756s
+sys	0m26.823s
+done

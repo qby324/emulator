@@ -1,0 +1,60 @@
+splice = 2
+ftrans0 = output/gen10/record/NN.20/nn-cmaes/trans.ini
+st2idmap = output/gen10/record/NN.20/nn-cmaes/wj_ous/kwsfeature/align/mono-mix16/phoneid.map
+xtrain = output/gen10/record/NN.20/nn-cmaes/wj_ous/kwsfeature/scripts/train.AC.train7k5.scp
+alimlf = output/gen10/record/NN.20/nn-cmaes/wj_ous/kwsfeature/align/mono-mix16/aligned.30k.mlf
+mlf2arkiv = output/gen10/record/NN.20/nn-cmaes/wj_ous/tsDeep/tsdeep.v8.1/mlf2arkiv.pl
+compmv = output/gen10/record/NN.20/nn-cmaes/wj_ous/tsDeep/tsdeep.v8.1/compmeanvar.py
+rbmtrain = output/gen10/record/NN.20/nn-cmaes/wj_ous/tsDeep/tsdeep.v8.1/rbmtrain.py
+backprop = output/gen10/record/NN.20/nn-cmaes/wj_ous/tsDeep/tsdeep.v8.1/backprop.py
+outputsize = 42
+## RBM pretraining
+2017年  4月  9日 日曜日 22:28:04 JST
+rbmi 1
+visnum: 60
+output/gen10/record/NN.20/nn-cmaes/nn/nn.xnorm
+0.386900285055
+0.370474059428
+0.369310061939
+0.368420079236
+0.367533072572
+0.3665397681
+0.365382807731
+0.364777801075
+0.364954269829
+0.364970905886
+2017年  4月  9日 日曜日 22:44:10 JST
+rbmi 2
+rbmi 2
+visnum: 41
+output/gen10/record/NN.20/nn-cmaes/nn/nn.xnorm
+2017年  4月  9日 日曜日 22:44:13 JST
+## backprop
+(60, 41)
+(41, 42)
+Start training (minibatch size=128)
+Epoch Train Devel
+Training data X:  (4062781, 60)
+Dev data X:  (815743, 60)
+0: 96.3051171107 96.3217582008
+1: 61.7207523615 60.147129672
+2: 58.9606725049 59.3123079205
+3: 58.358203408 58.8644953129
+4: 58.0377824943 58.686498076
+5: 57.8482817558 58.5385348081
+6: 57.7117988885 58.5136495195
+7: 57.5971237436 58.307457128
+8: 57.4958630554 58.2822040765
+9: 57.4089521439 58.195534623
+10: 57.3388769909 58.0769923861
+11: 57.2929724738 58.1444155819
+12: 57.2454434536 58.1809466952
+13: 57.1980621156 57.9382231904
+14: 57.1621753671 58.250699056
+15: 57.1305960129 58.0738051077
+2017年  4月  9日 日曜日 23:14:47 JST
+
+real	50m58.187s
+user	48m26.491s
+sys	0m23.542s
+done

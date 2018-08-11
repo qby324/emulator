@@ -1,0 +1,8 @@
+#! /bin/bash -e
+
+ppppp=`pwd`
+. ${ppppp}/data.conf
+#. ./geneconf_test
+time ${ppppp}/nn.bash 
+
+echo done

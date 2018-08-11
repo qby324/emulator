@@ -1,0 +1,14 @@
+#! /bin/bash
+export dpTH=1225
+export layernum=2
+export nodenum_l1=60
+export nodenum_l2=50
+export nodenum_l3=42
+export nodenum_l4=42
+export nodenum_l5=42
+export nodenum_l6=42
+export nodenum_l7=42
+export nodenum_l8=42
+export nodenum_l9=42
+export nodenum_l10=42
+export sigout_bit=1

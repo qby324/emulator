@@ -1,0 +1,102 @@
+nohup: ignoring input
+splice = 2
+ftrans0 = trans.ini
+st2idmap = /net/monshiro/storage1/shinot/csj/kwsfeature/align/mono-mix16/phoneid.map
+xtrain = /net/monshiro/storage1/shinot/csj/kwsfeature/scripts/train.AC.mfc.30k.rnd.train25k.scp
+alimlf = /net/monshiro/storage1/shinot/csj/kwsfeature/align/mono-mix16/aligned.30k.mlf
+mlf2arkiv = /net/monshiro/storage1/shinot/mysrc/tsDeep/tsdeep.v8.1/mlf2arkiv.pl
+compmv = /net/monshiro/storage1/shinot/mysrc/tsDeep/tsdeep.v8.1/compmeanvar.py
+rbmtrain = /net/monshiro/storage1/shinot/mysrc/tsDeep/tsdeep.v8.1/rbmtrain.py
+backprop = /net/monshiro/storage1/shinot/mysrc/tsDeep/tsdeep.v8.1/backprop.py
+outputsize = 42
+/usr/lib64/python2.6/site-packages/scipy/lib/_util.py:67: DeprecationWarning: Module scipy.linalg.blas.fblas is deprecated, use scipy.linalg.blas instead
+  DeprecationWarning)
+Using gpu device 0: GeForce GTX 970
+## RBM pretraining
+/usr/lib64/python2.6/site-packages/scipy/lib/_util.py:67: DeprecationWarning: Module scipy.linalg.blas.fblas is deprecated, use scipy.linalg.blas instead
+  DeprecationWarning)
+Using gpu device 0: GeForce GTX 970
+visnum: 60
+nn/nn.xnorm
+0.383861898805
+0.372610074786
+0.371365155907
+0.370741681737
+0.370527383101
+0.370447977605
+0.370354796404
+0.370085939495
+0.370055715578
+0.370073918515
+/usr/lib64/python2.6/site-packages/scipy/lib/_util.py:67: DeprecationWarning: Module scipy.linalg.blas.fblas is deprecated, use scipy.linalg.blas instead
+  DeprecationWarning)
+Using gpu device 0: GeForce GTX 970
+visnum: 80
+nn/nn.xnorm
+0.0433342422771
+0.0429086753295
+0.0429102212811
+0.0429017848237
+0.0429028217605
+0.0429023356645
+0.0428967731828
+0.0428936241369
+0.0428835438058
+0.0428827555364
+/usr/lib64/python2.6/site-packages/scipy/lib/_util.py:67: DeprecationWarning: Module scipy.linalg.blas.fblas is deprecated, use scipy.linalg.blas instead
+  DeprecationWarning)
+Using gpu device 0: GeForce GTX 970
+visnum: 60
+nn/nn.xnorm
+0.0252273593789
+0.0248496753396
+0.0248470224445
+0.0248336957462
+0.0248320287594
+0.0248337330863
+0.0248261048421
+0.0248278648297
+0.0248234319203
+0.0248255137903
+/usr/lib64/python2.6/site-packages/scipy/lib/_util.py:67: DeprecationWarning: Module scipy.linalg.blas.fblas is deprecated, use scipy.linalg.blas instead
+  DeprecationWarning)
+Using gpu device 0: GeForce GTX 970
+visnum: 60
+nn/nn.xnorm
+## backprop
+/usr/lib64/python2.6/site-packages/scipy/lib/_util.py:67: DeprecationWarning: Module scipy.linalg.blas.fblas is deprecated, use scipy.linalg.blas instead
+  DeprecationWarning)
+Using gpu device 0: GeForce GTX 970
+(60, 80)
+(80, 60)
+(60, 60)
+(60, 42)
+/usr/lib64/python2.6/site-packages/numpy/core/_methods.py:26: DeprecationWarning: converting an array with ndim > 0 to an index will result in an error in the future
+  return umr_maximum(a, axis, None, out, keepdims)
+/usr/lib64/python2.6/site-packages/numpy/core/fromnumeric.py:935: DeprecationWarning: converting an array with ndim > 0 to an index will result in an error in the future
+  return argmax(axis)
+Start training (minibatch size=128)
+Epoch Train Devel
+Training data X:  (13508314, 60)
+Dev data X:  (2735379, 60)
+0: 97.5041518875 97.458085333
+1: 58.3069138014 56.7148099039
+2: 54.943466668 55.6708595043
+3: 54.170476049 55.1072447365
+4: 53.7202274096 54.8922836653
+5: 53.4034965429 54.6000024128
+6: 53.1728385941 54.58026109
+7: 52.9950739967 54.2177884673
+8: 52.8491934671 54.2011911329
+9: 52.7222494236 54.1332298011
+10: 52.6348958131 53.9134796312
+11: 52.5502590479 54.0701306839
+12: 52.4758974362 53.8087043879
+13: 52.4154087623 53.767466958
+14: 52.3515962096 53.7270703621
+15: 52.2944240118 53.7257177159
+
+real	81m52.333s
+user	73m16.108s
+sys	8m21.661s
+done

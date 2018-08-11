@@ -1,0 +1,7 @@
+[shinot@pikaia8 nn4-mm16phoneid]$ pwd
+/net/monshiro/storage1/shinot/csj/kwsfeature/dnn/nn4-mm16phoneid
+[shinot@pikaia8 nn4-mm16phoneid]$ date
+2015年  1月 14日 水曜日 22:42:21 JST
+[shinot@pikaia8 nn4-mm16phoneid]$ nohup ./go.bash >& go.log &
+[1] 31812
+
